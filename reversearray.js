@@ -4,4 +4,5 @@ for(let i=0;i<parseInt(arr.length/2);i++){
     arr[i]=arr[arr.length-1-i]
     arr[arr.length-1-i]=x
 }
+//arr=arr.reverse()
 console.log(arr);

@@ -1,10 +1,10 @@
-let str="kwawk"
+let str="kwawll"
 function palindromeOrNot(str){
     for(let i=0;i<parseInt(str.length/2);i++){
         if(str[i]!=str[str.length-1-i]){
-            return "Not Palidrome"; 
+            return "NO"; 
         }
     }
-    return "Palindrome"
+    return "YES"
 }
 console.log(palindromeOrNot(str));

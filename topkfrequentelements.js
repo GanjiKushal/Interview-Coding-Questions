@@ -15,11 +15,11 @@ function topKFrequency(arr,k){
     for(let [key,value] of map){
         arr2.push([key,value])
     }
-    
+    //console.log(arr2)
     arr2.sort((a,b)=>{
         b[1]-a[1]
     })
-    
+   // console.log(arr2)
     let res=[]
     for(let i=0;i<k;i++){
         res.push(arr2[i][0])

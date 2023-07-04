@@ -11,7 +11,7 @@ for(let i=0;i<arr.length;i++){
 let Arr=[...new Set(arr)]
 console.log(Arr);
 let sum=0
-for(let i=0;i<ar.length;i++){
-    sum=sum+ar[i]
+for(let i=0;i<Arr.length;i++){
+    sum=sum+Arr[i]
 }
-return sum
+console.log(sum);

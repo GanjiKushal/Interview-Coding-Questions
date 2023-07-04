@@ -20,4 +20,4 @@ function romanToNumeric(s) {
  }
   return total
 }
-console.log(romanToNumeric("LC"))
+console.log(romanToNumeric("LD"))
