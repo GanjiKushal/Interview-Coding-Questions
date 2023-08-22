@@ -8,6 +8,7 @@ for(let i=0;i<arr.length;i++){
         }
     }
 }
+//console.log(arr);
 let Arr=[...new Set(arr)]
 console.log(Arr);
 let sum=0

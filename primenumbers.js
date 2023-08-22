@@ -17,3 +17,23 @@ function Prime(n) {
 }
 console.log(Prime(n));
 
+//Code for prime number
+// let n = 2;
+// function Prime(n) {
+//     let isPrime = true;
+//     for (let j = 2; j < n; j++) {
+//       if (n % j == 0) {
+//         isPrime = false;
+//         break;
+//       }
+//     }
+//     if (isPrime) {
+//         return "True"
+//     }else{
+//       return "False"
+//     }
+    
+//   }
+ 
+// console.log(Prime(n));
+

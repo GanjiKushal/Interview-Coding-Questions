@@ -22,4 +22,4 @@ for (let [key, value] of map) {
     ans.push(key);
   }
 }
-console.log(ans);
+console.log(...ans);

@@ -1,4 +1,4 @@
-let n=5
+let n=3
 function Fibi(n){
     if(n==1){
         return 0

@@ -8,8 +8,7 @@ function kthLargest(arr,k){
      max=Math.max(...arr)
     k--
     for(let i=0;i<arr.length;i++){
-        if(arr[i]==max){
-            
+        if(arr[i]==max){            
             arr[i]=Number.NEGATIVE_INFINITY
             break
         }
